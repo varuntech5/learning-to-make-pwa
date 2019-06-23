@@ -1,0 +1,53 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.back{
+  background: #a77fef;
+  border: 1px solid seagreen;
+  font-family: ubuntu;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height:  50%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.mycontainer {
+  padding: 2px 16px;
+}
+
+embed{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .back{
+    background: black;
+    border: 1px solid seagreen;
+    font-family: ubuntu;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+}
