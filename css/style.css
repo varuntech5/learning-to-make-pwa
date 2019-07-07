@@ -14,7 +14,7 @@
 }
 
 .back{
-  background: #a77fef;
+  /* background: #a77fef; */
   border: 1px solid seagreen;
   font-family: ubuntu;
   overflow: hidden;
@@ -25,21 +25,31 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
-  height:  50%;
+  height:  100%;
+  padding: 10px;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.mycontainer {
+/* .mycontainer {
   padding: 2px 16px;
+} */
+.mycontainer {
+  /* background: #a77fef; */
+  /* padding: 2px 16px; */
+  width: 100%;
+  /* height: fit-content; */
 }
 
 embed{
   width: 100%;
   height: 80%;
+  overflow: hidden;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .back{
@@ -51,3 +61,5 @@ embed{
     box-shadow: 5px 10px 8px 10px #888888;
   }
 }
+
+
